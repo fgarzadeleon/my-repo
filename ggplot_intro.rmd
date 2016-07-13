@@ -16,9 +16,39 @@ summary(cars)
 
 ## Load libraries
 ```{r Library load}
-# loading libraries
+    # loading libraries
+    
+    library(dplyr)
+    library(gapminder)
+    library(ggplot2) # install.packages('ggplot2')
+    
+    ## subset our data
+    g <- gapminder %>% 
+        filter(year == 2007) %>% 
+        mutate(pop_m = pop/1e6)
+    
+    summary(g)
 
-library(dplyr)
-library(gapminder)
-library(ggplot2) # install.packages('ggplot2')
+```
+
+# My first plot
+
+```{r}
+
+## ggplot(data, aes(what's x, what's y) + what kind of plot)
+s <- ggplot(g, aes(x = gdpPercap, y = lifeExp)) +
+    geom_point()
+s
+```
+
+# My second plot
+a simple geom_point with aes()
+
+```{r}
+s2 <-  s + aes(size = pop_m)
+s2
+
+s3 <-  s2 + aes(color = continent)
+s3
+
 ```
