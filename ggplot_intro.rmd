@@ -6,7 +6,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## Plan
+## Plan (oh and hello Noekie)
 
 We'll load libraries and learn ggplot2.
 
@@ -84,3 +84,10 @@ subset of 2007
     b
 
 ```
+
+## GoogleVis interactive figure
+
+```{r}
+
+suppressPackageStartupMessages(library(googleVis))
+ # install.packages('googleVis')
