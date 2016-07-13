@@ -1,2 +1,3 @@
 # my-repo
-my new repo for software carpentry: markdown
+my new repo for software carpentry: rmarkdown
+hello
