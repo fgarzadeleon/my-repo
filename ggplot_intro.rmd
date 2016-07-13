@@ -6,8 +6,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## Plan (oh and hello Noekie)
-
+## Plan
 We'll load libraries and learn ggplot2.
 
 ```{r Name you Rchunks}
