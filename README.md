@@ -1,6 +1,8 @@
 # my-repo
 Playing with [Software Carpentry at Oxford](jules32.github.io/2016-07-12-Oxford/)
 
+[Here is my ggplot intro](https://fgarzadeleon.github.io/my-repo/ggplot_intro.html)
+
 ## Introduction
 
 This repository demonstrates **software** and _formats_ or *formats*
