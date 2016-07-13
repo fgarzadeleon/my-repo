@@ -3,7 +3,7 @@ title: "ggplot_intro.rmd"
 output: html_document
 ---
 
-
+I'm gonna keep this! GOOD JOB!
 [CLICK HERE!!!!!!!!](http://wanna-joke.com/wp-content/uploads/2014/02/funny-gif-cat-kisses-hooman.gif)
 
 ```{r setup, include=FALSE}
