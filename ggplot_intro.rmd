@@ -1,0 +1,24 @@
+---
+title: "ggplot_intro.rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Plan
+
+We'll load libraries and learn ggplot2.
+
+```{r Name you Rchunks}
+summary(cars)
+```
+
+## Load libraries
+```{r Library load}
+# loading libraries
+
+library(dplyr)
+library(gapminder)
+library(ggplot2) # install.packages('ggplot2')
+```
